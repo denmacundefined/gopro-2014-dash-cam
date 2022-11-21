@@ -16,4 +16,4 @@ For using this feature you need also to put on your camera somewhere in a car wi
 
 ## How it works
 The autoexec.ash file will start loop with turning on camera, after that the script will do looping all time, and only manually turning off the camera can stop this loop.
-In the loop, the script is waiting 15 minutes, after that are moving all files in the LIFO stack by folders (before-0 will get files from before-1 and will be removed after). After moving all files in the LIFO stack, script will stop recording, move new files to the directory before-9, and run recording again. It means that you will have history every time for 2 hours and 30 minutes before the actual time in the case of 32GB sd card.
+In the loop, the script is waiting 18 minutes, after that are moving all files in the LIFO stack by folders (before-0 will get files from before-1 and will be removed after). After moving all files in the LIFO stack, script will stop recording, move new files to the directory before-9, and run recording again. It means that you will have history every time for 3 hours before the actual time in the case of 32GB sd card.
